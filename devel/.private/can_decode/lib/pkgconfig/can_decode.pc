@@ -1,0 +1,8 @@
+prefix=/home/vv6/users/dingwenzhe/11_25/devel/.private/can_decode
+
+Name: can_decode
+Description: Description of can_decode
+Version: 1.0.0
+Cflags: -I/home/vv6/users/dingwenzhe/11_25/devel/.private/can_decode/include -I/home/vv6/users/dingwenzhe/11_25/src/localization/CAN_decode/include
+Libs: -L${prefix}/lib 
+Requires: message_runtime message_generation geometry_msgs sensor_msgs std_msgs nav_msgs

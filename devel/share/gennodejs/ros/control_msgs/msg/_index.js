@@ -1,0 +1,1 @@
+/home/vv6/users/dingwenzhe/11_25/devel/.private/control_msgs/share/gennodejs/ros/control_msgs/msg/_index.js

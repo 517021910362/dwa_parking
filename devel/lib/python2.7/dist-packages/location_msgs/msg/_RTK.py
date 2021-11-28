@@ -1,0 +1,1 @@
+/home/vv6/users/dingwenzhe/11_25/devel/.private/location_msgs/lib/python2.7/dist-packages/location_msgs/msg/_RTK.py

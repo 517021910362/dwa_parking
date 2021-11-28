@@ -1,0 +1,1 @@
+/home/vv6/users/dingwenzhe/11_25/devel/.private/autoware_lanelet2_msgs/share/gennodejs/ros/autoware_lanelet2_msgs/msg/_index.js

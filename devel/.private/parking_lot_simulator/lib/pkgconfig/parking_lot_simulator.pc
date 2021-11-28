@@ -1,0 +1,8 @@
+prefix=/home/vv6/users/dingwenzhe/11_25/devel/.private/parking_lot_simulator
+
+Name: parking_lot_simulator
+Description: Description of parking_lot_simulator
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

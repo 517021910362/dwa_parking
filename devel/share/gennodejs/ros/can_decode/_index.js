@@ -1,0 +1,1 @@
+/home/vv6/users/dingwenzhe/11_25/devel/.private/can_decode/share/gennodejs/ros/can_decode/_index.js

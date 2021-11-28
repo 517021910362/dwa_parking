@@ -1,0 +1,1 @@
+/home/vv6/users/dingwenzhe/11_25/devel/.private/location_msgs/share/location_msgs/cmake/location_msgsConfig-version.cmake

@@ -1,0 +1,8 @@
+prefix=/home/vv6/users/dingwenzhe/11_25/devel/.private/dwa_planner
+
+Name: dwa_planner
+Description: Description of dwa_planner
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

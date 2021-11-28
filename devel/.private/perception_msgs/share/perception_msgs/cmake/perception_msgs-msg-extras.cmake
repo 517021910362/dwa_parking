@@ -1,0 +1,2 @@
+set(perception_msgs_MESSAGE_FILES "/home/vv6/users/dingwenzhe/11_25/src/messages/perception_msgs/msg/ts_3DPose.msg;/home/vv6/users/dingwenzhe/11_25/src/messages/perception_msgs/msg/ts_Geometry.msg;/home/vv6/users/dingwenzhe/11_25/src/messages/perception_msgs/msg/ts_LKA.msg;/home/vv6/users/dingwenzhe/11_25/src/messages/perception_msgs/msg/ts_Object.msg;/home/vv6/users/dingwenzhe/11_25/src/messages/perception_msgs/msg/ts_ObjectList.msg")
+set(perception_msgs_SERVICE_FILES "")

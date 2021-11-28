@@ -1,0 +1,1 @@
+/home/vv6/users/dingwenzhe/11_25/devel/.private/control_msgs/share/roseus/ros/control_msgs/msg/control_req.l

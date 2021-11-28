@@ -1,0 +1,8 @@
+prefix=/home/vv6/users/dingwenzhe/11_25/devel/.private/parking_lot_msgs
+
+Name: parking_lot_msgs
+Description: Description of parking_lot_msgs
+Version: 1.0.0
+Cflags: -I/home/vv6/users/dingwenzhe/11_25/devel/.private/parking_lot_msgs/include
+Libs: -L${prefix}/lib 
+Requires: message_runtime

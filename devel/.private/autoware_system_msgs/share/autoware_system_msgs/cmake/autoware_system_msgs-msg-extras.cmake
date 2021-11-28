@@ -1,0 +1,2 @@
+set(autoware_system_msgs_MESSAGE_FILES "/home/vv6/users/dingwenzhe/11_25/src/messages/autoware_system_msgs/msg/DiagnosticStatus.msg;/home/vv6/users/dingwenzhe/11_25/src/messages/autoware_system_msgs/msg/DiagnosticStatusArray.msg;/home/vv6/users/dingwenzhe/11_25/src/messages/autoware_system_msgs/msg/HardwareStatus.msg;/home/vv6/users/dingwenzhe/11_25/src/messages/autoware_system_msgs/msg/NodeStatus.msg;/home/vv6/users/dingwenzhe/11_25/src/messages/autoware_system_msgs/msg/SystemStatus.msg")
+set(autoware_system_msgs_SERVICE_FILES "")

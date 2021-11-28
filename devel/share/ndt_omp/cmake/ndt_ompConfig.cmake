@@ -1,0 +1,1 @@
+/home/vv6/users/dingwenzhe/11_25/devel/.private/ndt_omp/share/ndt_omp/cmake/ndt_ompConfig.cmake

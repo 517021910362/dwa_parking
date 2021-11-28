@@ -1,0 +1,1 @@
+/home/vv6/users/dingwenzhe/11_25/devel/.private/autoware_lanelet2_msgs/include/autoware_lanelet2_msgs/MapBin.h

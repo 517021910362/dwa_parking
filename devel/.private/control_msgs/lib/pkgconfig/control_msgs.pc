@@ -1,0 +1,8 @@
+prefix=/home/vv6/users/dingwenzhe/11_25/devel/.private/control_msgs
+
+Name: control_msgs
+Description: Description of control_msgs
+Version: 1.0.0
+Cflags: -I/home/vv6/users/dingwenzhe/11_25/devel/.private/control_msgs/include
+Libs: -L${prefix}/lib 
+Requires: message_runtime

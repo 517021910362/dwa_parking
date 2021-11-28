@@ -1,0 +1,1 @@
+/home/vv6/users/dingwenzhe/11_25/devel/.private/tablet_socket_msgs/share/roseus/ros/tablet_socket_msgs/msg/Waypoint.l

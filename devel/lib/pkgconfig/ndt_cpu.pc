@@ -1,0 +1,1 @@
+/home/vv6/users/dingwenzhe/11_25/devel/.private/ndt_cpu/lib/pkgconfig/ndt_cpu.pc

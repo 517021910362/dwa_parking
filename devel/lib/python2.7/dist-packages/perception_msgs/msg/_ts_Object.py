@@ -1,0 +1,1 @@
+/home/vv6/users/dingwenzhe/11_25/devel/.private/perception_msgs/lib/python2.7/dist-packages/perception_msgs/msg/_ts_Object.py

@@ -1,0 +1,1 @@
+/home/vv6/users/dingwenzhe/11_25/devel/.private/parking_lot_msgs/share/common-lisp/ros/parking_lot_msgs/msg/parking_lots.lisp

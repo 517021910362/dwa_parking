@@ -1,0 +1,1 @@
+/home/vv6/users/dingwenzhe/11_25/devel/.private/vehicle_msgs/share/roseus/ros/vehicle_msgs/msg/dc.l

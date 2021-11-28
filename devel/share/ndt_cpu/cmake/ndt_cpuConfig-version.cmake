@@ -1,0 +1,1 @@
+/home/vv6/users/dingwenzhe/11_25/devel/.private/ndt_cpu/share/ndt_cpu/cmake/ndt_cpuConfig-version.cmake

@@ -1,0 +1,1 @@
+/home/vv6/users/dingwenzhe/11_25/devel/.private/perception_msgs/share/perception_msgs/cmake/perception_msgs-msg-extras.cmake

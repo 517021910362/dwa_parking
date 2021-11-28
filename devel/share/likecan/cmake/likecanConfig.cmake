@@ -1,0 +1,1 @@
+/home/vv6/users/dingwenzhe/11_25/devel/.private/likecan/share/likecan/cmake/likecanConfig.cmake

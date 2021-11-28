@@ -1,0 +1,1 @@
+/home/vv6/users/dingwenzhe/11_25/devel/.private/autoware_system_msgs/share/roseus/ros/autoware_system_msgs/msg/SystemStatus.l

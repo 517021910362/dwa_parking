@@ -1,0 +1,8 @@
+prefix=/home/vv6/users/dingwenzhe/11_25/devel/.private/parking_points
+
+Name: parking_points
+Description: Description of parking_points
+Version: 1.0.0
+Cflags: -I/home/vv6/users/dingwenzhe/11_25/src/parking_points_calculate/src/include
+Libs: -L${prefix}/lib 
+Requires: roscpp std_msgs sensor_msgs parking_lot_msgs
