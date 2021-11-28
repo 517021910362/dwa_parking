@@ -1,0 +1,11 @@
+<launch>
+	<node name="rviz" pkg="rviz" type="rviz" args="-d $(find parking_points)/launch/parking_simu.rviz" required="true" />
+	<node pkg="parking_lot_simulator" type="parking_lot_simulator_node" name="parking_lot_simulator_node" output="screen">
+	</node>
+	<include file="$(find parking_points)/launch/parking_points.launch" />
+	<!-- <node pkg="dwa_planner" type="dwa_planner" name="dwa_planner" respawn="true" output="screen" launch-prefix="xterm -e"> -->
+	<node pkg="dwa_planner" type="dwa_planner" name="dwa_planner" respawn="true" output="screen">
+		<rosparam command="load" file="$(find dwa_planner)/config/dwa_planner_param.yaml" />
+	</node>
+	<node pkg="tf" type="static_transform_publisher" name="world_to_map" args="0 0 0 -1.57 0 0 rslidar dwa_viz 100" />
+</launch>

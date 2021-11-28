@@ -1,0 +1,18 @@
+<launch>
+
+    <param name="map_path" type="string" value="/home/vv6/users/dingwenzhe/dwa_parking/data/1027_parking" />
+    <node pkg="rslidar_sdk" name="rslidar_sdk_node" type="rslidar_sdk_node" output="screen"></node>
+    <param name="use_sc" type="bool" value="0" />
+
+    <param name="odo_topic_name" type="string" value="/current_pose" />
+
+    <param name="imu_topic_name" type="string" value="/current_pose2" />
+
+    <node pkg="rtk_mapping" type="location" name="location" />
+
+    <arg name="rviz" default="true" />
+    <group if="$(arg rviz)">
+        <node launch-prefix="nice" pkg="rviz" type="rviz" name="rviz" args="-d $(find rtk_mapping)/rviz/location2.rviz" />
+    </group>
+
+</launch>

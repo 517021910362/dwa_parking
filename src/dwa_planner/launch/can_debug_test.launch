@@ -1,0 +1,10 @@
+
+<launch>
+
+	<!-- **************Chasis CAN *************** -->
+	<!-- <node pkg="likecan" type="likecan" name="likecan" output="screen" launch-prefix="xterm -e" respawn="true" > -->
+	<node pkg="likecan" type="likecan" name="likecan" output="screen" respawn="true" >
+		<rosparam command="load" file="$(find likecan)/config/pid_param.yaml"/>
+	</node>
+
+</launch>

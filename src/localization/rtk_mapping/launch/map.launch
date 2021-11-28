@@ -1,0 +1,22 @@
+<launch>
+    
+    <param name="bag_path" type="string" value="/home/zsj/dataset/0728/0728_02.bag" />
+
+    <param name="map_path" type="string" value="/home/zsj/dataset/0728/lidar_map" />
+
+    <param name="map_dist" type="double" value="5" />
+
+    <param name="submap_size" type="int" value="60" />
+
+    <param name="save_map" type="bool" value="1" />
+
+    <rosparam param="q_t_imu2lidar">[0.022813, -0.006371, -0.658782, 0.751961]</rosparam>
+
+    <node pkg="rtk_mapping" type="map" name="map" output="screen"/>
+
+    <arg name="rviz" default="true" />
+    <group if="$(arg rviz)">
+        <node launch-prefix="nice" pkg="rviz" type="rviz" name="rviz" args="-d $(find rtk_mapping)/rviz/mapping.rviz" />
+    </group>
+
+</launch>

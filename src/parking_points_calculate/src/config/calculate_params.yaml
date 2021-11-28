@@ -1,0 +1,21 @@
+# 车长
+/vehicleLength : 4.625
+# 车宽
+/vehicleWidth : 1.86
+# 前后轴距
+/wheelBase : 2.68
+# 车尾到雷达在车纵向的距离
+/back2lidar : 0.6
+# 最小转弯半径
+/minTurnRadius : 8.0   #7.6
+
+# A到B时，车转了(90 - alpha)度
+/angleChosen1 : 45 #60    # 倒库
+/angleChosen2 : 35        # 侧方位
+# 到C点方向盘打正，之后要直着退
+/pointC2lineP1P2 : 1 #1
+# 车在A点时距离停车位前线P1P2的长度
+/vehicleCenter2lineP1P2 : 2 
+# 标准车位的长和宽，用于验算感知获得的车位是否正确
+/parkingLength: 5.3
+/parkingWidth: 2.5

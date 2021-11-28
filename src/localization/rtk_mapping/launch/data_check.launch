@@ -1,0 +1,16 @@
+<launch>
+    
+    <param name="bag_path" type="string" value="/home/zsj/dataset/0503/0503_03.bag" />
+    <param name="file_path" type="string" value="/home/zsj/dataset/0503/0503_03_ll" />
+    <param name="ll2file" type="bool" value="0" />
+    <param name="gps_delay" type="double" value="1.8" />
+    <rosparam param="q_t_imu2lidar">[0.022813, -0.006371, -0.658782, 0.751961]</rosparam>
+
+    <node pkg="rtk_mapping" type="data_check" name="data_check" output="screen"/>
+
+    <arg name="rviz" default="true" />
+    <group if="$(arg rviz)">
+        <node launch-prefix="nice" pkg="rviz" type="rviz" name="rviz" args="-d $(find rtk_mapping)/rviz/mapping.rviz" />
+    </group>
+
+</launch>

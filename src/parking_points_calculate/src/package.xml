@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<package>
+  <name>parking_points</name>
+  <version>1.0.0</version>
+  <description>parking_points calculator</description>
+  <maintainer email="xxx@gmail.com">xxx</maintainer>
+
+  <license>BSD</license>
+  <author >xxx</author>
+  
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <build_depend>roscpp</build_depend>
+  <run_depend>roscpp</run_depend>
+  <build_depend>std_msgs</build_depend>
+  <run_depend>std_msgs</run_depend>
+  <build_depend>sensor_msgs</build_depend>
+  <run_depend>sensor_msgs</run_depend>
+  <build_depend>parking_lot_msgs</build_depend>
+  <run_depend>parking_lot_msgs</run_depend>
+ 
+
+</package>

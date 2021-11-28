@@ -1,0 +1,25 @@
+{
+    "python.autoComplete.extraPaths": [
+        "/home/caro/Project/parking_ws/devel/lib/python2.7/dist-packages",
+        "/opt/ros/melodic/lib/python2.7/dist-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/home/caro/Project/parking_ws/devel/lib/python2.7/dist-packages",
+        "/opt/ros/melodic/lib/python2.7/dist-packages"
+    ],
+    "ros.distro": "melodic",
+    "files.associations": {
+        "*.ipp": "cpp",
+        "*.tcc": "cpp",
+        "deque": "cpp",
+        "list": "cpp",
+        "string": "cpp",
+        "unordered_map": "cpp",
+        "unordered_set": "cpp",
+        "vector": "cpp",
+        "hash_map": "cpp",
+        "hash_set": "cpp",
+        "system_error": "cpp",
+        "sstream": "cpp"
+    }
+}

@@ -1,0 +1,8 @@
+
+<launch>
+
+	<include file="$(find rtk_mapping)/launch/location.launch" />
+
+	<node pkg="can_decode" type="can_decode" name="can_decode"/>
+
+</launch>

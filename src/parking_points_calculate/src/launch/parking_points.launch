@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<launch>
+    <node pkg="parking_points" type="calculator" name="calculator" output = "screen"  launch-prefix="xterm -e">
+        <rosparam command="load" file="$(find parking_points)/config/calculate_params.yaml" />
+    </node>
+    <!-- <node name="rviz" pkg="rviz" type="rviz" args="-d $(find parking_points)/launch/parking_simu.rviz" required="true" /> -->
+
+</launch>

@@ -1,0 +1,20 @@
+<?xml version='1.0'?>
+<launch>
+        <!--  ************** CAN ***************  -->
+	<node pkg="likecan" type="likecan" name="likecan">
+	<rosparam file="$(find likecan)/config/pid_param.yaml"/>
+  	</node>
+
+        <!--  ************** PID Controller ***************  -->
+	<!-- <node pkg="pid_controller" type="pid_controller" name="pid_controller">
+        </node> -->
+
+        <!--  ************** Keyboard Operation ***************  -->
+	<!--node pkg="teleop_twist_keyboard" type="teleop_twist_keyboard.py" name="teleop_twist_keyboard">
+        </node-->
+
+        <!--  ************** Keyboard Operation ***************  -->
+
+
+
+</launch>
